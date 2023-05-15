@@ -1,3 +1,19 @@
+'''Creating HashMap for storing nums[i] and i. 
+For each and every nums[i] in the given array, 
+calculating complement and checking its existence in HashMap, 
+if found, returning the indices of both present nums[i] and the complement index.
+
+Approach
+Using HashMap
+
+Complexity
+Time complexity:
+O(n)O(n)O(n)
+
+Space complexity:
+O(n)O(n)O(n)'''
+
+'''Code'''
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int[] result= new int[2];
