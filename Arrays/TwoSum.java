@@ -11,6 +11,13 @@
 //Space complexity:
 //O(n)
 
+//Complexity
+//Time complexity:
+//O(n)
+
+//Space complexity:
+//O(n)
+
 //Code
 class Solution {
     public int[] twoSum(int[] nums, int target) {
