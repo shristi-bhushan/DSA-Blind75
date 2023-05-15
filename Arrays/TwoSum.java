@@ -8,10 +8,10 @@ Using HashMap
 
 Complexity
 Time complexity:
-O(n)O(n)O(n)
+$$O(n)$$
 
 Space complexity:
-O(n)O(n)O(n)'''
+$$O(n)$$'''
 
 '''Code'''
 class Solution {
