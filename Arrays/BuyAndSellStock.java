@@ -18,10 +18,10 @@ class Solution {
         int maxprofit=0;
         for(int i=0; i< prices.length; i++){
             if(prices[i]<minprice){
-                minprice=prices[i];
+                minprice=prices[i];    //update minprice
             }
             else if(prices[i] - minprice > maxprofit){
-                maxprofit= prices[i] - minprice;
+                maxprofit= prices[i] - minprice;       //update maxprofit
             }
         }
         return maxprofit;
