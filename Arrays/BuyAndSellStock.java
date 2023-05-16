@@ -1,17 +1,17 @@
-Intuition
-Iterating through the prices array, keeping track of the minimum price seen so far and calculating the maxprofit that can be obtained if the stock is sold at the current price. By updating the minprice and maxprofit variables accordingly, it finds the maxprofit that can be achieved by buying and selling the stocks.
 
-Approach
-Greedy Approach- One pass
+//Iterating through the prices array, keeping track of the minimum price seen so far and calculating the maxprofit that can be obtained if the stock is sold at the current price. By updating the minprice and maxprofit variables accordingly, it finds the maxprofit that can be achieved by buying and selling the stocks.
 
-Complexity
-Time complexity:
-O(n)
+//Approach
+//Greedy Approach- One pass
 
-Space complexity:
-O(1)
+//Complexity
+//Time complexity:
+//O(n)
 
-Code
+//Space complexity:
+//O(1)
+
+//Code
 class Solution {
     public int maxProfit(int[] prices) {
         int minprice= Integer.MAX_VALUE;
