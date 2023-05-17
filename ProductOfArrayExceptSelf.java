@@ -19,13 +19,17 @@ class Solution {
         }
         int[] result = new int[nums.length];
         int running_pass = 1 ;
+        
+        // first pass (left pass)
 
-        for(int i=0; i < nums.length; i++){
+        for(int i=0; i < nums.length; i++){ 
             result[i] = running_pass;
             running_pass = running_pass * nums[i];
         }
         
-        running_pass= 1;
+        running_pass= 1; //reset running pass -> 1
+
+        //second pass (right pass)
 
         for(int i=(nums.length - 1); i >= 0; i--){
             result[i] = result[i] * running_pass;
