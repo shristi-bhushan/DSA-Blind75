@@ -1,3 +1,6 @@
+// Search in Rotated Sorted Array
+// https://leetcode.com/problems/search-in-rotated-sorted-array/
+
 // The approach is to use a modified version of binary search to find the target value in a rotated sorted array. It checks for equal elements at the start, middle, and end, and then updates the search range based on whether the left or right half is sorted.
 
 // Approach
@@ -44,3 +47,18 @@ class Solution {
         return -1; // Target not found
     }
 }
+
+// Example 1:
+
+// Input: nums = [4,5,6,7,0,1,2], target = 0
+// Output: 4
+
+// Example 2:
+
+// Input: nums = [4,5,6,7,0,1,2], target = 3
+// Output: -1
+
+// Example 3:
+
+// Input: nums = [1], target = 0
+// Output: -1
