@@ -1,5 +1,10 @@
 // Find Minimum in Rotated Sorted Array
 
+// The approach involves using binary search to find the minimum value in a rotated sorted array. The algorithm compares the middle element of the 
+// current range with the rightmost element. If the middle element is smaller, it means the minimum value lies in the left half of the range. The 
+// algorithm updates the right pointer to the middle index. Otherwise, the minimum value is in the right half, so the algorithm updates the left 
+// pointer to mid + 1. This process is repeated until the left pointer is no longer less than the right pointer. 
+
 // Complexity : 
 
 // Time Complexity : 
