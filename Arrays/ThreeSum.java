@@ -1,4 +1,20 @@
-Arrays.sort(nums);
+// Problem : Three Sum 
+// The code uses the two-pointer approach to find unique triplets that sum up to zero.
+
+// Approach
+// Two pointer approach
+
+// Complexity
+// Time complexity:
+// O(n^2)
+
+// Space complexity:
+// O(n)
+
+// Code
+class Solution {
+    public List<List<Integer>> threeSum(int[] nums) {
+        Arrays.sort(nums);
         List<List<Integer>> result = new ArrayList<>();
 
         for (int i = 0; i < nums.length - 2; i++) {
@@ -30,3 +46,5 @@ Arrays.sort(nums);
             }
         }
         return result;
+    }
+}
